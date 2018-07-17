@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Fecha here.
+ * Punto 2 del taller 1 de Estructura de datos y algoritmos.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Pablo Alberto Osorio y Verónica Mendoza Iguarán) 
+ * @version (17/07/2018)
  */
 public class Fecha {
     private final byte dia;
@@ -59,10 +59,23 @@ public class Fecha {
      */
 
     public int comparar(Fecha otra) {
-      if(anio<otra.anio()){
-        return -1;
-        }else if(anio==otra.anio()){}
-        return 0;
+        if(anio<otra.anio()){
+            return -1;
+        }else if(anio==otra.anio()){
+            if(mes<otra.mes()){
+                return -1;
+            }else if(mes>otra.mes()){
+                return 1;
+            }else if(dia<otra.dia()){
+                return -1;
+            }else if(dia>otra.dia()){
+                return 1;
+            }else{
+                return 0;
+            }
+        }else{
+            return 1;
+        }
     }
 
     /**
@@ -72,6 +85,6 @@ public class Fecha {
      * @return una cadena que contiene la fecha
      */
     public String toString() {
-     return "";
+        return dia() +"/"+ mes() + "/" + anio();
     }
 }

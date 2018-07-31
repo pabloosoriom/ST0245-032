@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=base\ s
+comment0.target=void\ permutationsAux(java.lang.String,\ java.lang.String)
+comment1.params=s
+comment1.target=void\ permutations(java.lang.String)
+numComments=2

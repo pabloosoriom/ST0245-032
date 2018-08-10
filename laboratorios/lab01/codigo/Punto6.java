@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class Punto6 here.
+ * Solucion al punto 6. 4)Simulacro de Parcial.
  * 
  * @author (your name) 
  * @version (a version number or a date)
@@ -16,8 +16,8 @@ public class Punto6
     {
         if(i>=n.length()) return 0;
         if(i+1 < n.length() && n.charAt(i) == n.charAt(i+1)){
-            return sumaAux(n,i+2);
+            return sumaAux(n,i+2); //Linea 10
         }
-        return (n.charAt(i)-'0') + sumaAux(n,i+1);
+        return (n.charAt(i)-'0') + sumaAux(n,i+1); //Linea 12
     }
 }

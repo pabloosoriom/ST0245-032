@@ -1,7 +1,7 @@
 /**
  * Punto 1 del taller 04
  * 
- * @author Pablo Alberto Osorio Marulanda- Verónica Mendoza Hincapié
+ * @author Pablo Alberto Osorio Marulanda- Verónica Mendoza Iguarán
  * @version 15/08/2018
  */
 import java.util.concurrent.TimeUnit; 

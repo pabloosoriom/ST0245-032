@@ -71,6 +71,9 @@ public class MiArrayList{
         size++; //c_7
         //T(n)=c_1+O(n)+c_4+(c*(n+1))+c_5+(c*(n))+c_6+(c*(n))+c_7
         //Donde al final obtenemos O(n)
+        //La complejidad de este metodo permite que la lista sea utilizada
+        //en un editor de texto porque cumple con los parámetros planteados 
+        //para que pueda comportarse de esa manera.
     }
 
     /** 
@@ -119,7 +122,8 @@ public class MiArrayList{
         }catch(Exception ex) {
             System.out.println("Usted ha ingresado un valor incorrecto");
         }
-        //T(n)= c_1+O(n)+c_2+c_3+(c*(n+1))+c_4+(c*(n))+c_5+(c*(n))+c_6+(c*(n))+c_7+(n*(m+1))+c_8+(n*(m))+c_9+(n*(m))+c_10+(n*(m))+c_11+(c*(n))
+        //T(n)= c_1+O(n)+c_2+c_3+(c*(n+1))+c_4+(c*(n))+c_5+(c*(n))+c_6+
+        //(c*(n))+c_7+(n*(m+1))+c_8+(n*(m))+c_9+(n*(m))+c_10+(n*(m))+c_11+(c*(n))
         //Donde al final obtenemos O(n*m)
     } 
 

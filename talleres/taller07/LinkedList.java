@@ -109,18 +109,5 @@ public class LinkedList {
 
     }
 
-    public int Ejercicio_3(){
-        return auxiliar(first.data, first);
-
-    }
-
-    public static int auxiliar(int mayor,Node temp){
-        if(temp==null){
-            throw new IndexOutOfBoundsException();
-        }
-        if(temp.next==null)return mayor;
-        return Math.max(mayor,auxiliar(temp.next.data,temp.next));
-
-
-    }
+    
 }

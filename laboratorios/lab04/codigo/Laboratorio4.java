@@ -1,8 +1,8 @@
 /**
- * La clase Laboratorio 4 se compone de metodos para dar solucion al punto 1.1 y 1.2 del laboratorio
+ * La clase Laboratorio 4 se compone de metodos para dar solucion al punto 1.1 del laboratorio
  * numero 4.
  * @author Verónica Mendoza Iguarán - Pablo Osorio Marulanda 
- * @version 1
+ * @version 2
  */public class Laboratorio4 {
 
     /**
@@ -98,6 +98,9 @@
             }
     }
 
+    /**
+     * Método main para la ejecución del programa
+     */
     public static void main(String[] args) {
         //Crea el árbol familiar
         BinaryTree arbolP = ArbolGenealogico("Pablo");
